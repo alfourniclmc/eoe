@@ -91,8 +91,8 @@ charHP = 25 ; charDmg = 2 ; charCrit = 5 ; charMag = 8
 
 print "\nAlright,", charName, "let's get ready to fight!"
 
-#Crude test db
-
+## Crude test db
+#
 enemName_1 = "Rat"
 enemDmg_1 = 1 ; enemCrit_1 = 3 ; enemHP_1 = 10 ; enemMag_1 = 0
 
@@ -101,16 +101,24 @@ enemDmg_2 = 2 ; enemCrit_2 = 5 ; enemHP_2 = 15 ; enemMag_2 = 2
 
 enemName_3 = "Death Knight"
 enemDmg_3 = 3 ; enemCrit_3 = 7 ; enemHP_3 = 35 ; enemMag_3 = 2
+#
+##
 
-
-# Grab variables from DB or test environment and assign them to proper
-# variables recognized by the combat engine
+## Grab variables from DB or test environment and assign them to proper
+#  variables recognized by the combat engine
 ch_hp = charHP ; ch_dm = charDmg ; ch_cr = charCrit ; ch_mg = charMag
 EN_hp = enemHP_1 ; EN_dm = enemDmg_1 ; EN_cr = enemCrit_1 ; EN_mg = enemMag_1
 ch_nm = charName ; EN_nm = enemName_1
-
+#
+##
 
 #while (main_loop < 7):
 combat_round(ch_hp, ch_nm, EN_hp, EN_nm)
- 
+
+## 
 # while ch_hp > 0 or EN_hp > 0:
+#
+# future condition model needed to maintain combat once enemy damage is
+# implemented. ch_hp and EN_hp will need to be changed to the value
+# passed to the variable.
+##

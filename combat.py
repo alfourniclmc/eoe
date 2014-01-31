@@ -79,6 +79,10 @@ def combat_round(ch_l, ch_n, enem_l, enem_n):
   else:
    print "Unrecognized command."
 
+## ensure function ended properly by returning 1 
+# return 1;
+##
+
 ## Debug via stat changes (WARNING!! Variables not parsed!)
 charName = raw_input("Please choose your name!\n")
 #charDmg = raw_input("How much damage do you want to do?\n")

@@ -120,7 +120,6 @@ ch_nm = charName ; EN_nm = enemName_1
 #
 ##
 
-#while (main_loop < 7):
 combat_round(ch_hp, ch_nm, EN_hp, EN_nm)
 
 ## 

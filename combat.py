@@ -1,4 +1,8 @@
 main_loop = True
+# Main loop not needed to return anything yet, however
+# it is good practice and we want all modular programs
+# to return some sort of value. In this case, 'true,'
+# is better than '1' or '0' .
 print "Welcome, adventurer.\n"
 
 def combat_round(ch_l, ch_n, enem_l, enem_n):

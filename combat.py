@@ -7,8 +7,7 @@ def combat_round(ch_l, ch_n, enem_l, enem_n):
  print "An enemy monster appears!"
  print "The", EN_nm, "hisses.\n "
  while (enem_l > 0):
-#  print "An enemy monster appears!"
-#  print "The", EN_nm, "hisses.\n "
+     # Init Main Combat Menu #
   print "[A]ttack, [R]un, [S]uicide\n What will %s do?" % ch_n
 
   pl_input = raw_input("> ")

@@ -104,7 +104,7 @@ print "\nAlright,", charName, "let's get ready to fight!"
 ## Crude test db
 #
 enemName_1 = "Rat"
-enemDmg_1 = 1 ; enemCrit_1 = 3 ; enemHP_1 = 10 ; enemMag_1 = 0
+enemDmg_1 = 1 ; enemCrit_1 = 3 ; enemHP_1 = 7 ; enemMag_1 = 0
 
 enemName_2 = "Kobold"
 enemDmg_2 = 2 ; enemCrit_2 = 5 ; enemHP_2 = 15 ; enemMag_2 = 2

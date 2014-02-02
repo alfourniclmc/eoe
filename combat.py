@@ -127,9 +127,11 @@ ch_nm = charName ; EN_nm = enemName_1
 #ch_hp = charHP ; ch_nm = charName ; ch_dm = charDmg
 
 # Assign opponent
-enem_assign_dk(enemHP_3, enemDmg_3, enemName_3)
 
 combat_round(ch_hp, ch_nm, ch_dm, EN_hp, EN_nm, EN_dm)
+enem_assign_dk(enemHP_3, enemDmg_3, enemName_3)
+combat_round(ch_hp, ch_nm, ch_dm, EN_hp, EN_nm, EN_dm)
+
 
 ## 
 # while ch_hp > 0 or EN_hp > 0:

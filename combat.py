@@ -132,7 +132,6 @@ combat_round(ch_hp, ch_nm, ch_dm, EN_hp, EN_nm, EN_dm)
 enem_assign_dk(enemHP_3, enemDmg_3, enemName_3)
 combat_round(ch_hp, ch_nm, ch_dm, EN_hp, EN_nm, EN_dm)
 
-
 ## 
 # while ch_hp > 0 or EN_hp > 0:
 #

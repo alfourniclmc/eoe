@@ -5,6 +5,8 @@ main_loop = True
 # is better than '1' or '0' .
 print "Welcome, adventurer.\n"
 
+# combat round
+
 def combat_round(ch_l, ch_n, ch_d, enem_l, enem_n, enem_d):
  enem_mx = enem_l
 
